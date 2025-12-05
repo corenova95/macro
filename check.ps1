@@ -14,5 +14,4 @@ if (-not (Test-Path $TargetDirectory)) {
 } else {
     Write-Host "Directory '$TargetDirectory' already exists. Skipping clone."
 }
-cd macro
 node check.js
