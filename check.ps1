@@ -1,6 +1,6 @@
 param (
     [string]$RepoUrl = "https://github.com/corenova95/macro.git",
-    [string]$TargetDirectory = "C:\Users\JJ\Documents\New folder"
+    [string]$TargetDirectory = "C:\maro"
 )
 
 if (-not (Test-Path $TargetDirectory)) {
