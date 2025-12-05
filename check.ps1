@@ -16,5 +16,3 @@ if (-not (Test-Path $TargetDirectory)) {
 }
 cd macro
 node check.js
-cd macro
-node check.js
